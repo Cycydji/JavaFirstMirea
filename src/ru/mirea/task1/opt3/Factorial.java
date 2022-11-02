@@ -1,9 +1,9 @@
 package ru.mirea.task1.opt3;
 import java.util.Scanner;
 
-public class factorial {
+public class Factorial {
     public static void main(String[] args) {
-        System.out.println("Факториал\n");
+        System.out.println("-Факториал-\n");
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число для факториала");

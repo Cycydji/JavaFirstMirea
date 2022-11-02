@@ -1,9 +1,9 @@
 package ru.mirea.task1.opt3;
 
 
-public class harmSeries {
+public class HarmSeries {
     public static void main(String[] arg) {
-        System.out.println("Гармонический ряд");
+        System.out.println("-Гармонический ряд-");
         System.out.print("= ");
 
         for (int i = 1; i <= 10; i++) {

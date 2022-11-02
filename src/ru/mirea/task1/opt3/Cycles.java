@@ -2,10 +2,10 @@ package ru.mirea.task1.opt3;
 import java.util.Scanner;
 
 
-public class cycles {
+public class Cycles {
 
     public static void main(String[] args) {
-        System.out.println("Циклы\n");
+        System.out.println("-Циклы-\n");
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите количество чисел массива");

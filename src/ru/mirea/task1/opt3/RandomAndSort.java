@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class RandomAndSort {
     public static void main(String[] arg) {
-        System.out.println("Генерируется массив целых чисел и сортируется\n");
+        System.out.println("-Генерируется массив целых чисел и сортируется-\n");
 
         //Entering the number of elements
         Scanner scanner = new Scanner(System.in);

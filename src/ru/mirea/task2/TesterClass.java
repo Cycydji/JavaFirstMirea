@@ -13,19 +13,19 @@ public class TesterClass {
         System.out.println(one);
 
         System.out.println("-test of the 'Book' class-");
-        Book Dante = new Book("Dante", "the divine comedy", 763, 2500);
+        Book Dante = new Book("Dante", "the Divine comedy", 763, 2500);
         System.out.println(Dante);
 
         System.out.println("-test of the 'Dog' class-");
-        Dog tit = new Dog("Tit", 14);
-        System.out.println(tit);
-        System.out.println(tit.dogHumanAge());
+        Dog fuf = new Dog("Fuf", 14);
+        System.out.println(fuf);
+        System.out.println(fuf.dogHumanAge());
 
-        System.out.println(tit.getAge());
-        System.out.println(tit.getName());
-        tit.setName("NoTit");
-        tit.setAge(9);
-        System.out.println(tit);
+        System.out.println(fuf.getAge());
+        System.out.println(fuf.getName());
+        fuf.setName("NoFuf");
+        fuf.setAge(9);
+        System.out.println(fuf);
 
 
         System.out.println("\n-test of the 'TestDog' class-");

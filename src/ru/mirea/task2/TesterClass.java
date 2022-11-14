@@ -38,6 +38,7 @@ public class TesterClass {
         name_Dog = in.next();  // first input of the dog's name
 
         while(!(name_Dog.equals("none"))) {
+            System.out.println("Введите ее возраст");
             age_Dog = in.nextInt();  // input of the age of the dog
             Dog addy = new Dog(name_Dog, age_Dog);  // create a dog
             dog.dogAdd(addy);  // add in class-array

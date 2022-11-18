@@ -57,15 +57,15 @@ public class Human {
                 eyebrows = "thick";
             }
 
-            public void setEye(String eye) { this.eye = eye; }
+            public void setEye(String eye) { if (!eye.equals("")){this.eye = eye;}}
 
-            public void setHair(String hair) { this.hair = hair; }
+            public void setHair(String hair) { if (!hair.equals("")) {this.hair = hair;}}
 
-            public void setHairColor(String hairColor) { this.hairColor = hairColor; }
+            public void setHairColor(String hairColor) { if (!hairColor.equals("")) {this.hairColor = hairColor;}}
 
-            public void setNose(String nose) { this.nose = nose; }
+            public void setNose(String nose) { if (!nose.equals("")) {this.nose = nose;}}
 
-            public void setEyebrows(String eyebrows) { this.eyebrows = eyebrows; }
+            public void setEyebrows(String eyebrows) { if (!eyebrows.equals("")){this.eyebrows = eyebrows;}}
 
             public String toString(){
                 return "->" + firstName + " " + lastName + " has " + eye + " eyes, " + hair

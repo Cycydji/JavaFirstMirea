@@ -1,4 +1,7 @@
 package ru.mirea.task3.Hum;
+
+import java.util.Objects;
+
 // для показа
 public class Head {
 
@@ -11,15 +14,15 @@ public class Head {
         eyebrows = "thick";
     }
 
-    public void setEye(String eye) { this.eye = eye; }
+    public void setEye(String eye) { if (!eye.equals("\n")){this.eye = eye;}}
 
-    public void setHair(String hair) { this.hair = hair; }
+    public void setHair(String hair) { if (!hair.equals("\n")) {this.hair = hair;}}
 
-    public void setHairColor(String hairColor) { this.hairColor = hairColor; }
+    public void setHairColor(String hairColor) { if (!hairColor.equals("\n")) {this.hairColor = hairColor;}}
 
-    public void setNose(String nose) { this.nose = nose; }
+    public void setNose(String nose) { if (!nose.equals("\n")) {this.nose = nose;}}
 
-    public void setEyebrows(String eyebrows) { this.eyebrows = eyebrows; }
+    public void setEyebrows(String eyebrows) { if (!eyebrows.equals("")){this.eyebrows = eyebrows;}}
 
     public String toString(){
         return  "Someone has " + eye + " eyes, " + hair

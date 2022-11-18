@@ -14,13 +14,13 @@ public class Head {
         eyebrows = "thick";
     }
 
-    public void setEye(String eye) { if (!eye.equals("\n")){this.eye = eye;}}
+    public void setEye(String eye) { if (!eye.equals("")){this.eye = eye;}}
 
-    public void setHair(String hair) { if (!hair.equals("\n")) {this.hair = hair;}}
+    public void setHair(String hair) { if (!hair.equals("")) {this.hair = hair;}}
 
-    public void setHairColor(String hairColor) { if (!hairColor.equals("\n")) {this.hairColor = hairColor;}}
+    public void setHairColor(String hairColor) { if (!hairColor.equals("")) {this.hairColor = hairColor;}}
 
-    public void setNose(String nose) { if (!nose.equals("\n")) {this.nose = nose;}}
+    public void setNose(String nose) { if (!nose.equals("")) {this.nose = nose;}}
 
     public void setEyebrows(String eyebrows) { if (!eyebrows.equals("")){this.eyebrows = eyebrows;}}
 

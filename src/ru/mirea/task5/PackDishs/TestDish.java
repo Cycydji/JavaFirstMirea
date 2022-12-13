@@ -4,6 +4,7 @@ public class TestDish {
     public static void main(String[] args) {
         System.out.println("-test of the 'Dish' class-\n");
 
+
         Glass g = new Glass("Glass", "Middle");
         System.out.println("-A " + g.getSize()+ " glass made of "+ g.getMaterial());
         g.whereIt();

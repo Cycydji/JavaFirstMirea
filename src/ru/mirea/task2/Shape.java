@@ -1,9 +1,9 @@
 package ru.mirea.task2;
 
 public class Shape {
-    String name;
-    int dimensional;
-    int square;
+    private final String name;
+    private final int dimensional;
+    private final int square;
 
     public Shape(String name, int dimensional, int square){
         this.name = name;

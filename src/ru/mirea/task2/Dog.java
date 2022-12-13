@@ -1,8 +1,8 @@
 package ru.mirea.task2;
 
 public class Dog {
-    String name;
-    int age;
+    private String name;
+    private int age;
 
     public Dog(String name, int age){
         this.name = name;

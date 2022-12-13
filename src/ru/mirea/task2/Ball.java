@@ -1,9 +1,9 @@
 package ru.mirea.task2;
 
 public class Ball {
-    String color;
-    String type;
-    int price;
+    private final String color;
+    private final String type;
+    private final int price;
 
     public Ball(String color, String type, int price){
         this.color = color;

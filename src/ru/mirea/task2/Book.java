@@ -1,10 +1,10 @@
 package ru.mirea.task2;
 
 public class Book {
-    String author;
-    String name;
-    int pages;
-    int price;
+    private final String author;
+    private final String name;
+    private final int pages;
+    private final int price;
 
     public Book(String author, String name, int pages, int price){
         this.author = author;
